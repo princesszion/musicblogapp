@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import BlogPostList, BlogPostDetail, CommentList, CommentDetail
+from .views import  BlogPostDetail, CommentList, CommentDetail, BlogPostList
 
 urlpatterns = [
     path('posts/', BlogPostList.as_view(), name='post-list'),
