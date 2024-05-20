@@ -1,0 +1,71 @@
+/* Header.css */
+.header {
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 10px;
+  }
+  
+  .navigation a.active {
+    color: #ffa500;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profileLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .profileInitial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .signOutButton {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
