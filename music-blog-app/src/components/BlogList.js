@@ -75,9 +75,12 @@ const BlogPage = () => {
 
   return (
     <>
-      
+      <Header />
       <div className="blogPageContainer">
         <div className="blogsList">
+        <div className="blogheroSection">
+          <h1 className="blogheroTitle">MY STORIES</h1>
+        </div>
           {blogs.length > 0 ? (
             blogs.map(blog => (
               <div key={blog.id} className="blogCard">

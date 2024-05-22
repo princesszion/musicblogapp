@@ -1,0 +1,66 @@
+/* EventsPage.css */
+.eventsPageContainer {
+    padding: 20px;
+    background: url('https://pbs.twimg.com/media/F1T6FsaWIAAziRD?format=jpg&name=4096x4096') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.eventheroSection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.eventheroTitle {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.eventsForm {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.formGroup input,
+.formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formGroup input[type="date"] {
+    padding: 8px 10px;
+}
+
+.submitButton {
+    background: #ffa500;;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submitButton:hover {
+    background: #d4ac0d;
+}

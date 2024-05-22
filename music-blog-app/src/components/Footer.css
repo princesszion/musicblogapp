@@ -1,0 +1,31 @@
+/* src/components/Footer.css */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .footer-left {
+    margin-left: 20px;
+  }
+  
+  .footer-right {
+    margin-right: 20px;
+  }
+  
+  .social-icon {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #f1c40f; /* Change to your preferred hover color */
+  }
+  

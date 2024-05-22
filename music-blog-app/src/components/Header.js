@@ -9,14 +9,13 @@ const Header = () => {
       <div className="headerContent">
         <div className="logo">
           <Link to="/">
-            <img src="/path/to/logo.png" alt="Logo" /> {/* Update with your logo path */}
+            <img src="https://www.moi-albert.com/assets/logo-3528c10c.svg" alt="Logo" /> {/* Update with your logo path */}
           </Link>
         </div>
         <nav className="navigation">
-          <Link to="/audios">Audios</Link>
-          <Link to="/videos">Videos</Link>
-          <Link to="/blogs">Blogs</Link>
-          <Link to="/gallery">Gallery</Link>
+          <Link to="/audios">Music</Link>
+          <Link to="/blogs">Stories</Link>
+          <Link to="/books">Books</Link>
           <Link to="/events">Events</Link>
           <Link to="/manage-blogs" className="active">Manage all blogs</Link>
         </nav>

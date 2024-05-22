@@ -201,7 +201,7 @@ const BlogDetail = () => {
 
   return (
     <>
-      
+      <Header />
       <div className="blogDetailContainer">
         <div className="blogDetailImageContainer">
           {blog.thumbnail && (

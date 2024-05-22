@@ -82,6 +82,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './AdminBlogForm.css';
+import Header from './Header';
 
 function AdminBlogForm() {
   const [title, setTitle] = useState('');
@@ -119,6 +120,8 @@ function AdminBlogForm() {
   };
 
   return (
+    <>
+    <Header />
     <div className="admin-blog-form-container">
       <h2>Write more about this new blog</h2>
       <form onSubmit={handleSubmit} className="admin-blog-form">
@@ -155,6 +158,8 @@ function AdminBlogForm() {
         <button type="submit" className="btn btn-primary">Upload Blog</button>
       </form>
     </div>
+    </>
+    
   );
 }
 

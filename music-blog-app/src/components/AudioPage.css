@@ -1,0 +1,196 @@
+/* .audioPageContainer {
+    color: white;
+    background-color: black;
+  }
+  
+  .heroSection {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url('https://static.wixstatic.com/media/4a2d7c_fcf89826fb6845e39b383bf117f8568f~mv2.jpg/v1/fill/w_1349,h_406,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4a2d7c_fcf89826fb6845e39b383bf117f8568f~mv2.jpg') center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heroTitle {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .audioGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .audioCard {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    color: black;
+  }
+  
+  .audioImage {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .audioTitle {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .audioActions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .spotifyButton,
+  .appleMusicButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .spotifyButton {
+    background-color: #1DB954;
+    color: white;
+  }
+  
+  .appleMusicButton {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+  }
+   */
+
+
+
+   .audioPageContainer {
+    color: white;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .musicheroSection {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url('https://static.wixstatic.com/media/4a2d7c_fcf89826fb6845e39b383bf117f8568f~mv2.jpg/v1/fill/w_1349,h_406,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4a2d7c_fcf89826fb6845e39b383bf117f8568f~mv2.jpg') center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .audioPageContainer {
+    color: white;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .musicheroTitle {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffa500;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .audioGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .audioCard {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    color: black;
+    transition: transform 0.3s ease-in-out; /* Add this line */
+  }
+  
+  .audioCard:hover {
+    transform: scale(1.05); /* Add this line */
+  }
+  
+  .audioImage {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; /* Add this line */
+  }
+  
+  .audioCard:hover .audioImage {
+    transform: scale(1.1); /* Add this line */
+  }
+  
+  .audioTitle {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .audioActions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .youtubeButton,
+  .spotifyButton,
+  .appleMusicButton,
+  .amazonMusicButton,
+  .audiomackButton,
+  .soundcloudButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .youtubeButton {
+    background-color: #FF0000;
+  }
+  
+  .spotifyButton {
+    background-color: #1DB954;
+  }
+  
+  .appleMusicButton {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .amazonMusicButton {
+    background-color: #FF9900;
+  }
+  
+  .audiomackButton {
+    background-color: #FF4C00;
+  }
+  
+  .soundcloudButton {
+    background-color: #FF5500;
+  }
+  
