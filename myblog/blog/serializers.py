@@ -53,3 +53,10 @@ class CommentSerializer(serializers.ModelSerializer):
         validated_data['post'] = post
         return Comment.objects.create(**validated_data)
 
+from rest_framework import serializers
+from .models import Event
+
+class EventSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Event
+        fields = ['id', 'fullName', 'email', 'phone', 'eventDate', 'venue', 'city', 'state', 'country', 'website', 'eventDescription', 'budget']
