@@ -98,12 +98,13 @@
 import React from 'react';
 import './BooksPage.css';
 import Header from './Header';
+import motw from '../assets/images/motw.png'
 
 const booksData = [
   {
     id: 1,
     title: 'THE MANTLE OF TRUE WORSHIP',
-    thumbnail: 'https://images.unsplash.com/photo-1629992101753-56d196c8aabb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ym9vayUyMGNvdmVyfGVufDB8fDB8fHww',
+    thumbnail: motw,
     description: '"The Mantle of True Worship" delves into the depths of genuine worship, exploring its transformative power and role in connecting individuals with their divine purpose. As an author deeply passionate about this subject, I have poured my heart and soul into writing a book that will inspire the next generation of kingdom pacesetters into parkers of kingdom inheritance through worship.The book is centered around building a path to the mysteries of supernatural increase while sharing my experiential knowledge to ignite a revival. But more importantly, the book ended with a comprehensive Bible Study guide that will help Christendom in redefining worship. The Mantle of True Worship should be a must-read, and it will help change the lens through which we see worship in this generation and generations beyond.',
     preorder_link: 'https://example.com/preorder/1',
     retailers: [
@@ -158,7 +159,7 @@ const BooksPage = () => {
                   ))}
                 </div>
                 <a href={booksData[0].preorder_link} className="preorderButton" target="_blank" rel="noopener noreferrer">
-                  Preorder Now
+                Place Your Order Now
                 </a>
               </div>
             </div>
@@ -178,7 +179,7 @@ const BooksPage = () => {
                   ))}
                 </div>
                 <a href={book.preorder_link} className="preorderButton" target="_blank" rel="noopener noreferrer">
-                  Preorder Now
+                  Place Your Order Now
                 </a>
               </div>
             ))}

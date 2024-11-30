@@ -43,47 +43,51 @@
 import React from 'react';
 import './AudioPage.css';
 import Header from './Header';
+import img1 from '../assets/images/Belongs.jpg'
+import img2 from '../assets/images/Chant.jpg'
+import img3 from '../assets/images/Promises .jpg'
+
 
 const audioData = [
   {
     id: 1,
     title: 'Strike The Ground',
-    thumbnail: 'https://static.wixstatic.com/media/4a2d7c_0ad7c581971a4e55a9322a01c941f0c1~mv2.jpg/v1/crop/x_732,y_0,w_1536,h_1550/fill/w_332,h_335,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Strike-The-Ground-Art-Final_edited.jpg',
+    thumbnail: img1,
     platform: 'youtube',
     platform_link: 'https://www.youtube.com/channel/UCSQTicor-IdNgtuALXK6dXQ'
   },
   {
     id: 2,
     title: 'Expect Impossible',
-    thumbnail: 'https://static.wixstatic.com/media/4a2d7c_4ff41e62c39a4ad08884a95b93301821~mv2.jpg/v1/crop/x_5,y_0,w_1189,h_1200/fill/w_332,h_335,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1200x1200bf-60-2.jpg',
+    thumbnail: img2,
     platform: 'spotify',
     platform_link: 'https://open.spotify.com/album/2W0XPiGBbTzCLrPtsHpgyu?si=WhCwQOeNRAap_3U8ryjV0Q'
   },
   {
     id: 3,
     title: 'Tent Revival',
-    thumbnail: 'https://static.wixstatic.com/media/4a2d7c_fa89d626eb0545119c3a63079682be37~mv2.png/v1/crop/x_3,y_0,w_634,h_640/fill/w_332,h_335,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/sddefault_jpg.png',
+    thumbnail: img3,
     platform: 'apple_music',
     platform_link: 'https://music.apple.com/tz/album/divine-breakthrough/1498786303'
   },
   {
     id: 4,
     title: 'Oil + Water',
-    thumbnail: 'https://static.wixstatic.com/media/4a2d7c_fa89d626eb0545119c3a63079682be37~mv2.png/v1/crop/x_3,y_0,w_634,h_640/fill/w_332,h_335,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/sddefault_jpg.png',
+    thumbnail: img3,
     platform: 'amazon_music',
     platform_link: 'https://www.amazon.com/Divine-Breakthrough-Moi-Albert/dp/B084Q6B374'
   },
   {
     id: 5,
     title: 'Broken Record',
-    thumbnail: 'https://www.moi-albert.com/assets/image1-dcdc4034.png',
+    thumbnail: img2,    
     platform: 'audiomack',
     platform_link: 'https://audiomack.com/moialbert/album/divine-breakthrough'
   },
   {
     id: 6,
     title: 'Crossover',
-    thumbnail: 'https://www.moi-albert.com/assets/DivineBreak-7f74813f.jpeg',
+    thumbnail: img1,
     platform: 'soundcloud',
     platform_link: 'https://soundcloud.com/moialbert'
   },

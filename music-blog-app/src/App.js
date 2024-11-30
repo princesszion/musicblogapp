@@ -39,6 +39,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<BlogList />} />
         <Route path="/audios" element={<AudioPage />} />
         <Route path="/books" element={<BooksPage />}  />
         <Route path="/blogs" element={<BlogList />} />

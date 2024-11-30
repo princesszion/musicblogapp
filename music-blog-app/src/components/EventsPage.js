@@ -39,7 +39,7 @@ const EventsPage = () => {
             <Header />
             <div className="eventsPageContainer">
                 <div className="eventheroSection">
-                    <h1 className="eventheroTitle">BOOK AN EVENT</h1>
+                    <h1 className="eventheroTitle">BOOKINGS</h1>
                 </div>
                 <form onSubmit={handleSubmit} className="eventsForm">
                     {[
