@@ -1,32 +1,31 @@
 // Header.js
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/logo.png'; // Make sure the path is correct
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+
   return (
     <header className="header">
       <div className="headerContent">
         <div className="logo">
           <Link to="/">
-            <img src={logo} alt="Logo" /> {/* Update with your logo path */}
+            <img src={logo} alt="Logo" />
           </Link>
         </div>
-        <nav className="navigation">
-          <Link to="/audios">Music</Link>
-          <Link to="/blogs">Stories</Link>
-          <Link to="/books">Books</Link>
-          <Link to="/events">Events</Link>
-          {/* <Link to="/admin" className="active">Manage all blogs</Link> */}
+
+        <button className="menu-toggle" onClick={toggleMenu}>☰</button>
+
+        <nav className={`navigation ${menuOpen ? 'open' : ''}`}>
+          <Link to="/" onClick={() => setMenuOpen(false)}>About</Link>
+          <Link to="/audios" onClick={() => setMenuOpen(false)}>Music</Link>
+          <Link to="/blogs" onClick={() => setMenuOpen(false)}>Stories</Link>
+          <Link to="/books" onClick={() => setMenuOpen(false)}>Books</Link>
+          <Link to="/events" onClick={() => setMenuOpen(false)}>Events</Link>
         </nav>
-        <div className="profile">
-          {/* <Link to="/profile" className="profileLink">
-            <span className="profileInitial">M</span>
-            My Profile
-          </Link>
-          <button className="signOutButton">Sign out</button> */}
-        </div>
       </div>
     </header>
   );

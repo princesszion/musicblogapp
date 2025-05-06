@@ -26,6 +26,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Homepage from './components/Homepage';
 import BlogList from './components/BlogList';
 import BlogDetail from './components/BlogDetail';
 import AdminBlogForm from './components/AdminBlogForm';
@@ -39,7 +40,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<BlogList />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/audios" element={<AudioPage />} />
         <Route path="/books" element={<BooksPage />}  />
         <Route path="/blogs" element={<BlogList />} />
