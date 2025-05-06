@@ -106,7 +106,7 @@
   .musicheroTitle {
     font-size: 80px;
     font-weight: bold;
-    color: #ffa500;
+    color: #67081f;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
@@ -187,10 +187,10 @@
   }
   
   .audiomackButton {
-    background-color: #FF4C00;
+    background-color: #67081f;
   }
   
   .soundcloudButton {
-    background-color: #FF5500;
+    background-color: #67081f;
   }
   

@@ -44,7 +44,7 @@ const HomePage = () => {
             <p className="animate__animated animate__fadeInUp animate__delay-1s">
               Gospel Minister • Leader • Innovator • Speaker
             </p>
-            <Link to="/about" className="cta-button animate__animated animate__fadeInUp animate__delay-2s">
+            <Link to="/blogs" className="cta-button animate__animated animate__fadeInUp animate__delay-2s">
               Discover More
             </Link>
           </div>

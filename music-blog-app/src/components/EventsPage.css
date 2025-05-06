@@ -58,7 +58,7 @@
   }
   
   .submitButton {
-    background: #ffa500;
+    background: #67081f;
     color: #000;
     padding: 10px 20px;
     border: none;
@@ -71,7 +71,7 @@
   }
   
   .submitButton:hover {
-    background: #d4ac0d;
+    background: #67081f;
   }
 
   .confirmationMessage {

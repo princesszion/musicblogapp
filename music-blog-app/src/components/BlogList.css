@@ -20,7 +20,7 @@
   .blogheroTitle {
     font-size: 80px;
     font-weight: bold;
-    color: #ffa500;
+    color: #67081f;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
@@ -52,7 +52,7 @@
   }
   
   .viewBlogPostsButton {
-    background-color: #ffa500;
+    background-color: #67081f;
     color: white;
     border: none;
     padding: 10px 20px;
